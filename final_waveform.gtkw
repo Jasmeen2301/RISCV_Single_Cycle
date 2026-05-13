@@ -1,0 +1,102 @@
+[*]
+[*] GTKWave Analyzer v3.3.48 (w)1999-2013 BSI
+[*] Wed Apr 08 18:03:38 2026
+[*]
+[dumpfile] "C:\Users\DELL\Desktop\RISCV_Single_cycle\Single_Cycle.vcd"
+[dumpfile_mtime] "Wed Apr 08 17:55:59 2026"
+[dumpfile_size] 4993
+[savefile] "C:\Users\DELL\Desktop\RISCV_Single_cycle\final_waveform.gtkw"
+[timestart] 0
+[size] 1536 801
+[pos] -1 -1
+*-6.018859 111 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Single_Cycle_Top_Tb.
+[treeopen] Single_Cycle_Top_Tb.dut.
+[sst_width] 211
+[signals_width] 241
+[sst_expanded] 1
+[sst_vpaned_height] 225
+@28
+Single_Cycle_Top_Tb.clk
+Single_Cycle_Top_Tb.rst
+@800200
+-PC
+@22
+Single_Cycle_Top_Tb.dut.PC.Pc[31:0]
+Single_Cycle_Top_Tb.dut.PC.Pc_next[31:0]
+@1000200
+-PC
+@800200
+-PC_Adder
+@22
+Single_Cycle_Top_Tb.dut.PC_Adder.a[31:0]
+Single_Cycle_Top_Tb.dut.PC_Adder.b[31:0]
+Single_Cycle_Top_Tb.dut.PC_Adder.c[31:0]
+@1000200
+-PC_Adder
+@800200
+-Instruction_Memory
+@22
+Single_Cycle_Top_Tb.dut.Instruction_Memory.A[31:0]
+Single_Cycle_Top_Tb.dut.Instruction_Memory.rd[31:0]
+@1000200
+-Instruction_Memory
+@800200
+-Sign_Extend
+@25
+Single_Cycle_Top_Tb.dut.Sign_Extend.imm[31:0]
+@28
+Single_Cycle_Top_Tb.dut.Sign_Extend.imm_src
+@22
+Single_Cycle_Top_Tb.dut.Sign_Extend.imm_extend[31:0]
+@1000200
+-Sign_Extend
+@800200
+-Register_File
+@24
+Single_Cycle_Top_Tb.dut.Register_File.A1[4:0]
+Single_Cycle_Top_Tb.dut.Register_File.A2[4:0]
+@22
+Single_Cycle_Top_Tb.dut.Register_File.A3[4:0]
+Single_Cycle_Top_Tb.dut.Register_File.RD1[31:0]
+Single_Cycle_Top_Tb.dut.Register_File.RD2[31:0]
+@28
+Single_Cycle_Top_Tb.dut.Register_File.WE3
+@22
+Single_Cycle_Top_Tb.dut.Register_File.WD3[31:0]
+@1000200
+-Register_File
+@800200
+-Control_Unit
+@22
+Single_Cycle_Top_Tb.dut.Control_Unit_Top.op[6:0]
+@28
+Single_Cycle_Top_Tb.dut.Control_Unit_Top.ALU_control[2:0]
+Single_Cycle_Top_Tb.dut.Control_Unit_Top.mem_write
+Single_Cycle_Top_Tb.dut.Control_Unit_Top.reg_write
+Single_Cycle_Top_Tb.dut.Control_Unit_Top.imm_src[1:0]
+@1000200
+-Control_Unit
+@800200
+-ALU
+@22
+Single_Cycle_Top_Tb.dut.ALU.a[31:0]
+Single_Cycle_Top_Tb.dut.ALU.b[31:0]
+Single_Cycle_Top_Tb.dut.ALU.result[31:0]
+@28
+Single_Cycle_Top_Tb.dut.ALU.aluControl[2:0]
+@1000200
+-ALU
+@800200
+-Data_Memory
+@22
+Single_Cycle_Top_Tb.dut.Data_Memory.A[31:0]
+Single_Cycle_Top_Tb.dut.Data_Memory.WD[31:0]
+@28
+Single_Cycle_Top_Tb.dut.Data_Memory.WE
+@22
+Single_Cycle_Top_Tb.dut.Data_Memory.RD[31:0]
+@1000200
+-Data_Memory
+[pattern_trace] 1
+[pattern_trace] 0
