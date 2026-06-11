@@ -19,4 +19,3 @@ module Data_Memory(clk, rst, A, WE, WD, RD);
     end
 
 endmodule
-

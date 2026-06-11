@@ -25,3 +25,5 @@ module ALU(a, b, aluControl, result, carry, overflow, negative, zero);
     assign overflow = (~aluControl[1]) & (a[31]^sum[31]) & (~(a[31] ^ b[31] ^ aluControl[0])); 
                     
 endmodule
+
+

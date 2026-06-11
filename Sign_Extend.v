@@ -19,4 +19,3 @@ module Sign_Extend(imm, imm_extend, imm_src);
                                  {{20{imm[31]}}, {imm[31:20]}};                           //load
 
 endmodule
-

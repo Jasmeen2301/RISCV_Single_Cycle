@@ -32,5 +32,3 @@ ALU_Decoder AD(
 
 
 endmodule
-
- 

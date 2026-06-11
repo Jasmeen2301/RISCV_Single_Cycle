@@ -18,7 +18,7 @@ module Register_File(clk, rst, A1, A2, A3, WE3, WD3, RD1, RD2);
 
 
     initial begin
-      // registers[9] = 32'h00000020;    // load
+      // registers[9] = 32'h00000020;    // load  // store
 
       // registers[6] = 32'h00000040;   // store
       // registers[11] = 32'h00000028;   // store
