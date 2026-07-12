@@ -1,6 +1,4 @@
-`include "Single_Cycle_Top.v"
-
-module Single_Cycle_Top_Tb;
+    module Single_Cycle_Top_Tb;
 
     reg clk, rst;
 
@@ -10,7 +8,7 @@ module Single_Cycle_Top_Tb;
     );
 
     initial begin
-        $dumpfile("Single_Cycle.vcd");
+        $dumpfile("outputs/Single_Cycle.vcd");
         $dumpvars(0);
     end
 
@@ -28,7 +26,7 @@ module Single_Cycle_Top_Tb;
         #100;
 
         rst = 1'b1;
-        #300;
+        #200;
         $finish;
     end
 

@@ -1,13 +1,3 @@
-`include "PC.v"
-`include "Instruction_Memory.v"
-`include "Register_File.v"
-`include "Sign_Extend.v"
-`include "ALU.v"
-`include "Control_Unit_Top.v"
-`include "Data_Memory.v"
-`include "PC_Adder.v"
-`include "Mux.v"
-
 module Single_Cycle_Top(clk, rst);
 
 input clk, rst;
