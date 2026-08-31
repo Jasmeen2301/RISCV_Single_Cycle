@@ -16,7 +16,7 @@ module ALU(a, b, aluControl, result, carry, overflow, negative, zero);
                     aluControl == 3'b011 ? a|b :
                     aluControl == 3'b101 ? {{31{1'b0}}, sum[31]} : {32{1'b0}};
                     
-    assign carry = (~aluControl[1]) & (aluControl[0]==0) ?  carry : ~carry;                //borrow = ~ carry
+    assign carry = (~aluControl[1]) & (aluControl[0]==0) ?  cout : ~cout;                //borrow = ~ carry
     
     assign negative = result[31];
     
